@@ -1,11 +1,12 @@
 import React from 'react'
+import Link from 'next/link'
 
 const Navbar = () => {
   return (
     <div>
-      <div className="flex gap-6 py-7 justify-center">
+      <div className="flex gap-6 py-7">
         <ul>
-            <button>To-DO List</button>
+            <button> <Link href="/">To-DO List</Link></button>
         </ul>
 
         <ul className='flex gap-6'>
