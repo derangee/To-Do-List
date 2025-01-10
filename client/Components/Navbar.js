@@ -3,7 +3,7 @@ import React from 'react'
 const Navbar = () => {
   return (
     <div>
-      <div className="flex gap-6 py-7 ">
+      <div className="flex gap-6 py-7 justify-center">
         <ul>
             <button>To-DO List</button>
         </ul>
