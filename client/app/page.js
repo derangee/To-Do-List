@@ -27,8 +27,8 @@ export default function Home() {
 
 
       <div className="task flex gap-7 justify-center">
-        <button className="text-xl mt-[7vh] text-red-400 rounded-lg border-2 border-red-400 p-2 hover:bg-red-500 hover:text-white transition duration-300">Your Tasks</button>
-        <button className="text-xl mt-[7vh] text-green-400 rounded-lg border-2 border-green-400 p-2 hover:bg-green-500 hover:text-white transition duration-300">Completed Tasks</button>
+        <button className="text-lg mt-[7vh] text-red-400 rounded-md border-2 border-red-400 p-2 hover:bg-red-500 hover:text-white transition duration-300">Your Tasks</button>
+        <button className="text-lg mt-[7vh] text-green-400 rounded-md border-2 border-green-400 p-2 hover:bg-green-500 hover:text-white transition duration-300">Completed Tasks</button>
       </div>
 
 
