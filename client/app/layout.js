@@ -25,7 +25,7 @@ export default function RootLayout({ children }) {
       >
         
         <Navbar/>
-        <div className="bg-gray-800 h-screen">{children}</div>
+        <div className="bg-gray-800 h-screen text-gray-200">{children}</div>
       </body>
     </html>
   );
