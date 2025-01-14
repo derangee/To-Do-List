@@ -1,4 +1,6 @@
 import Image from "next/image";
+import DeleteRoundedIcon from '@mui/icons-material/DeleteRounded';
+import EditIcon from '@mui/icons-material/Edit';
 
 export default function Home() {
   return (
@@ -12,7 +14,18 @@ export default function Home() {
       </div>
 
       <div className="task">
-        <h1 className="text-xl flex justify-center mt-[7vh]">Tasks</h1>
+        <h1 className="text-xl flex justify-center mt-[7vh] text-gray-400">Your Tasks</h1>
+      </div>
+
+      <div className="flex justify-center">
+        <div className="container mt-5 p-4 flex justify-center rounded-lg border-2 border-green-500 bg-gray-800 w-[40vw] shadow-md gap-2">
+        <span className="text-gray-300">Your To-Do</span>
+
+        <div className="flex ml-[1vw]">
+        <button><EditIcon className="text-blue-500"></EditIcon> </button>
+        <button><DeleteRoundedIcon className="text-red-500"></DeleteRoundedIcon> </button>
+        </div>      
+        </div>
       </div>
 
 
