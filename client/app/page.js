@@ -2,6 +2,6 @@ import Image from "next/image";
 
 export default function Home() {
   return (
-    <div className="flex h-screen">HI this is home page</div>
+    <div className="flex">HI this is home page</div>
   );
 }
