@@ -18,10 +18,9 @@ export default function Home() {
       </div>
 
       <div className="flex justify-center">
-        <div className="container mt-5 p-4 flex justify-center rounded-lg border-2 border-green-500 bg-gray-800 w-[40vw] shadow-md gap-2">
-        <span className="text-gray-300">Your To-Do</span>
-
-        <div className="flex ml-[1vw]">
+        <div className="container mt-5 p-4 flex justify-center rounded-lg border-2 border-green-500 bg-gray-800 w-[40vw] shadow-md gap-2">       
+        <span className="text-gray-300 w-[70%] break-words">Your To-Do</span>
+        <div className="flex ml-[1vw] gap-4">
         <button><EditIcon className="text-blue-500"></EditIcon> </button>
         <button><DeleteRoundedIcon className="text-red-500"></DeleteRoundedIcon> </button>
         </div>      
