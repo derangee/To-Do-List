@@ -25,7 +25,7 @@ export default function RootLayout({ children }) {
       >
         
         <Navbar/>
-        {children}
+        <div className="bg-gradient-to-r from-gray-800 via-purple-700 to-blue-900">{children}</div>
       </body>
     </html>
   );
