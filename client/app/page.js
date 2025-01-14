@@ -11,9 +11,8 @@ export default function Home() {
         </button>
       </div>
 
-      <div className="container">
-
-        
+      <div className="task">
+        <h1 className="text-xl flex justify-center mt-[7vh]">Tasks</h1>
       </div>
 
 
