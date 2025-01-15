@@ -1,3 +1,5 @@
+"use client";
+
 import Image from "next/image";
 import DeleteRoundedIcon from '@mui/icons-material/DeleteRounded';
 import EditIcon from '@mui/icons-material/Edit';
@@ -22,7 +24,7 @@ export default function Home() {
     
       <div className="flex justify-center mt-7">
       <input type="text" placeholder="Enter your To-Do here" className="text-black px-4 py-2 rounded-md w-[35vw] bg-gray-200"/>
-      <button onClick={handleadd()} className="ml-5 text-lg px-4 text-bold rounded-md border-2 border-blue-500 text-blue-500 hover:bg-blue-500 hover:text-white transition duration-300" >Add</button>
+      <button onClick={handleadd} className="ml-5 text-lg px-4 text-bold rounded-md border-2 border-blue-500 text-blue-500 hover:bg-blue-500 hover:text-white transition duration-300" >Add</button>
       </div>
 
 
@@ -36,8 +38,8 @@ export default function Home() {
         <div className="container mt-5 p-4 flex justify-center rounded-lg border-2 border-red-400 bg-gray-800 w-[40vw] shadow-md gap-2">       
         <span className="text-gray-300 w-[70%] break-words">Your To-Do</span>
         <div className="flex ml-[1vw] gap-4">
-        <button onClick={handleedit()} ><EditIcon className="text-blue-500"></EditIcon> </button>
-        <button onClick={handledelete()}><DeleteRoundedIcon className="text-red-500"></DeleteRoundedIcon> </button>
+        <button onClick={handleedit} ><EditIcon className="text-blue-500"></EditIcon> </button>
+        <button onClick={handledelete}> <DeleteRoundedIcon className="text-red-500"></DeleteRoundedIcon> </button>
         </div>      
         </div>
       </div>
