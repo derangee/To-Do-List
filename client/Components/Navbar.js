@@ -4,7 +4,7 @@ import Link from 'next/link'
 const Navbar = () => {
   return (
     <div>
-      <div className=" text-xl flex gap-6 py-2 justify-between text-gray-200 bg-gray-800 ">
+      <div className=" text-xl flex gap-6 py-2 justify-between text-gray-200 bg-gray-900 ">
         <ul>
             <button className='ml-7'> <Link href="/">To-Do List</Link></button>
         </ul>
