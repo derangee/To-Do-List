@@ -35,7 +35,7 @@ export default function Home() {
 
 
       <div className="flex justify-center">
-        <div className="container mt-5 p-4 flex justify-center rounded-lg border-2 border-red-400 bg-gray-850 w-[40vw] shadow-md gap-2">       
+        <div className="container mt-5 p-4 flex justify-center rounded-lg border-2 border-red-400 bg-gray-800 w-[40vw] shadow-md gap-2">       
         <span className="text-gray-300 w-[70%] break-words">Your To-Do</span>
         <div className="flex ml-[1vw] gap-4">
         <button onClick={handleedit} ><EditIcon className="text-blue-500"></EditIcon> </button>
