@@ -20,9 +20,9 @@ export default function Home() {
   }
 
   return (
-  <div className="">
 
-  <div className="box border border-white w-[80%] mx-auto text-center mt-20 h-full rounded-2xl">
+
+  <div className="box border border-white w-[80%] mx-auto text-center mt-20  rounded-2xl">
 
  
   <div className="input flex gap-7 justify-center mt-7 ">
@@ -38,12 +38,10 @@ export default function Home() {
     </div>
   </div>
 
-   
-
   </div>
 
       
 
-    </div>
+  
   );
 }
