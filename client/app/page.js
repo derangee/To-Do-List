@@ -27,7 +27,7 @@ export default function Home() {
  
   <div className="input flex gap-7 justify-center mt-7 ">
    <input type="input form" placeholder="Enter your To-Do task here"  className="w-[40%] text-black rounded-3xl h-11 p-2 font-bold" />
-   <button onClick={handleadd} className="text-3xl font-extrabold bg-clip-text text-transparent bg-gradient-to-r from-blue-500 via-purple-500 to-pink-500">Add</button>
+   <button onClick={handleadd} className="text-3xl font-extrabold bg-clip-text text-transparent bg-gradient-to-r from-blue-500 via-purple-500 to-pink-500 hover:text-purple-600 hover:text-4xl">Add</button>
   </div>
 
   <div className="card border border-white w-[60%] rounded-3xl mx-auto mt-7 mb-11 flex justify-between p-4"> 
