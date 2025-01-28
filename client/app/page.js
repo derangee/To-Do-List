@@ -1,13 +1,15 @@
+/* eslint-disable react-hooks/rules-of-hooks */
 "use client";
 
 import Image from "next/image";
 import DeleteRoundedIcon from '@mui/icons-material/DeleteRounded';
 import EditIcon from '@mui/icons-material/Edit';
+import { useState } from "react";
 
 export default function Home() {
 
   const handleadd = () =>{
-
+    
   }
 
   const handleedit = () =>{
@@ -32,8 +34,8 @@ export default function Home() {
   <div className="card border border-white w-[60%] rounded-3xl mx-auto mt-7 mb-11 flex justify-between p-4"> 
     <div className="max-w-[75%] flex-col text-xl font-extrabold bg-clip-text text-transparent bg-gradient-to-r from-blue-500 via-purple-500 to-pink-500"> Your todo</div>
     <div className="icons flex gap-4"> 
-     <button><EditIcon className="text-blue-500 text-2xl"/></button> 
-     <button><DeleteRoundedIcon className="text-red-500 text-2xl"/></button>
+     <button onClick={handleedit}><EditIcon className="text-blue-500 text-2xl"/></button> 
+     <button onClick={handledelete}><DeleteRoundedIcon className="text-red-500 text-2xl"/></button>
     </div>
   </div>
 
