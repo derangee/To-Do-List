@@ -1,1 +1,1 @@
-todo list app using reactjs
+todo list app using react.js
